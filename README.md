@@ -18,4 +18,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ceiphr/get.r
 
 ## Acknowledgments
 
-This script is based on [get.acme.sh](https://github.com/acmesh-official/get.acme.sh). It's a very nice way to cleanly install scripts!
+This script is based on [acmesh-official/get.acme.sh](https://github.com/acmesh-official/get.acme.sh). It's a very nice way to cleanly install scripts!

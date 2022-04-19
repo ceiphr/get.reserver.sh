@@ -19,7 +19,7 @@ if [ -z "$BRANCH" ]; then
     BRANCH="main"
 fi
 
-if _exists curl && [ "${ACME_USE_WGET:-0}" = "0" ]; then
+if _exists curl && [ "${RESERVER_USE_WGET:-0}" = "0" ]; then
     curl https://raw.githubusercontent.com/ceiphr/reserver/$BRANCH/reserver.sh > reserver.sh && chmod +x reserver.sh
 elif _exists wget; then
     wget -O - https://raw.githubusercontent.com/ceiphr/reserver/$BRANCH/reserver.sh > reserver.sh && chmod +x reserver.sh
