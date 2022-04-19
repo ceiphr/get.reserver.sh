@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-#https://github.com/acmesh-official/get.acme.sh
-
 _exists() {
     cmd="$1"
     if [ -z "$cmd" ]; then
