@@ -1,5 +1,7 @@
 # Reserver Install
 
+[![Vercel Deployment Status][vercel-shield]](https://get.reserver.sh/)
+
 The install script is `install.sh`. It simply downloads the latest version of
 `reserver.sh` and makes it executable with `chmod +x reserver.sh`.
 
@@ -19,3 +21,5 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ceiphr/get.r
 ## Acknowledgments
 
 This script is based on [acmesh-official/get.acme.sh](https://github.com/acmesh-official/get.acme.sh). It's a very nice way to cleanly install scripts!
+
+[vercel-shield]: https://img.shields.io/github/deployments/ceiphr/get.reserver.sh/production?color=green&label=vercel&logo=vercel&logoColor=white
