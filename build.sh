@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
-rm index.html
+if [ -f "public/index.html" ]; then
+    rm "public/index.html"
+fi
 mkdir public
-cat install.sh > public/index.html
+cat install.sh >public/index.html
