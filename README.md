@@ -3,7 +3,7 @@
 The install script is `install.sh`. It simply downloads the latest version of
 `reserver.sh` and makes it executable with `chmod +x reserver.sh`.
 
-`update-index.sh` is a script that copies `install.sh` to `index.html`. That HTML
+`build.sh` is a script that copies `install.sh` to `public/index.html`. That HTML
 file is hosted on [get.reserver.sh](https://get.reserver.sh).
 
 Running the following command will get it and execute it:
